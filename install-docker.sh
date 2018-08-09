@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# install older versions
+# remove older versions
 sudo apt-get remove -y docker docker-engine docker.io
 
 # install dependencies
