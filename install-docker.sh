@@ -32,6 +32,7 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 # test if docker works correctly
+clear
 echo "log out of your session completely and then log back in"
 echo "verify your docker installation by running:"
 echo "  docker run hello-world"
