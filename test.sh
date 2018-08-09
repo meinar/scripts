@@ -1,1 +1,2 @@
-echo $1
+read newUser
+echo $newUser
