@@ -35,4 +35,6 @@ sudo usermod -aG docker $USER
 clear
 echo "log out of your session completely and then log back in"
 echo "verify your docker installation by running:"
+echo ""
 echo "  docker run hello-world"
+echo ""
