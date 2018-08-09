@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
+echo "Asername:"
+read newUser
 
-if [[ $# -eq 0 ]] ; then
-    echo 'username missing'
-    exit 1
-fi
+adduser $newUser
+usermod -aG sudo $newUser
 
-adduser $1
-usermod -aG sudo $1
-
-echo "User '$1' successfully created"
+echo "User '$newUser' successfully created"
